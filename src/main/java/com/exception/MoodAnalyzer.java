@@ -1,8 +1,8 @@
 package com.exception;
 
+
 public class MoodAnalyzer {
     private String message;
-
 
     public MoodAnalyzer() {
     }
@@ -10,6 +10,7 @@ public class MoodAnalyzer {
     public MoodAnalyzer(String message) {
         this.message = message;
     }
+
     public String analyseMood() {
         if (this.message.contains("Sad"))
             return "SAD";
