@@ -1,6 +1,5 @@
 package com.exception;
 
-
 public class MoodAnalyzer {
     private String message;
 
